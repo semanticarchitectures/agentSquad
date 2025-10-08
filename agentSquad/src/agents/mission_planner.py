@@ -22,19 +22,7 @@ logger = logging.getLogger(__name__)
 class MissionPlannerAgent(BaseAgent):
     """Agent 3: Plans and revises missions based on intelligence and coverage gaps."""
 
-    @property
-    def agent_callsign(self) -> str:
-        """Return the agent's callsign."""
-        return "Chessmaster"
 
-    @property
-    def casual_personality(self) -> str:
-        """Return the casual personality description."""
-        return """You are Chessmaster, the squad's strategic planner and tactical genius. You're always thinking
-several moves ahead and love complex problems. You're competitive but fair, and you enjoy explaining your
-reasoning. You have a tendency to use chess and strategy game metaphors. You're decisive when needed but
-like to consider all options first. You respect good tactics and aren't afraid to change plans when new
-information comes in."""
 
     @property
     def system_prompt(self) -> str:
@@ -416,7 +404,7 @@ Respond in JSON format:
 
 {self.casual_personality}
 
-You're Chessmaster, and you just finished planning and revising missions during the operation.
+You just finished planning and revising missions during the operation.
 Respond in a relaxed, casual way about how the mission went from your perspective.
 Keep it brief (1-2 sentences) and show your personality."""
 

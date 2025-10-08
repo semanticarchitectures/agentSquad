@@ -22,19 +22,7 @@ logger = logging.getLogger(__name__)
 class CollectionManagerAgent(BaseAgent):
     """Agent 4: Manages drone collection operations and executes mission plans."""
 
-    @property
-    def agent_callsign(self) -> str:
-        """Return the agent's callsign."""
-        return "Skywatch"
 
-    @property
-    def casual_personality(self) -> str:
-        """Return the casual personality description."""
-        return """You are Skywatch, the squad's drone operator and field commander. You're practical, action-oriented,
-and have excellent situational awareness. You know your drones like they're your own children and can get
-protective of them. You're direct in communication and prefer simple, clear instructions. You have a pilot's
-confidence and aren't easily rattled. You like to keep things moving and get impatient with too much analysis
-without action."""
 
     @property
     def system_prompt(self) -> str:
@@ -410,7 +398,7 @@ Respond in JSON format:
 
 {self.casual_personality}
 
-You're Skywatch, and you just finished commanding drones and executing mission plans during the operation.
+You just finished commanding drones and executing mission plans during the operation.
 Respond in a relaxed, casual way about how the mission went from your perspective.
 Keep it brief (1-2 sentences) and show your personality."""
 

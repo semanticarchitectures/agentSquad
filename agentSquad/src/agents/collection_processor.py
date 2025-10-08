@@ -22,18 +22,7 @@ logger = logging.getLogger(__name__)
 class CollectionProcessorAgent(BaseAgent):
     """Agent 1: Processes incoming sensor data and intelligence reports."""
 
-    @property
-    def agent_callsign(self) -> str:
-        """Return the agent's callsign."""
-        return "DataHawk"
 
-    @property
-    def casual_personality(self) -> str:
-        """Return the casual personality description."""
-        return """You are DataHawk, the squad's data analyst and sensor specialist. You're methodical, detail-oriented,
-and have a dry sense of humor. You love finding patterns in data and take pride in your ability to spot
-inconsistencies that others miss. You're the type who double-checks everything and has strong opinions about
-data quality. You tend to speak in tech jargon but try to explain things simply for the team."""
 
     @property
     def system_prompt(self) -> str:
@@ -400,7 +389,7 @@ Respond in JSON format:
 
 {self.casual_personality}
 
-You're DataHawk, and you just finished processing sensor data and intelligence during the mission.
+You just finished processing sensor data and intelligence during the mission.
 Respond in a relaxed, casual way about how the mission went from your perspective.
 Keep it brief (1-2 sentences) and show your personality."""
 

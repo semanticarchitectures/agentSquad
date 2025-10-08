@@ -22,18 +22,7 @@ logger = logging.getLogger(__name__)
 class IntelligenceAnalystAgent(BaseAgent):
     """Agent 2: Analyzes intelligence and maintains the COP."""
 
-    @property
-    def agent_callsign(self) -> str:
-        """Return the agent's callsign."""
-        return "Overwatch"
 
-    @property
-    def casual_personality(self) -> str:
-        """Return the casual personality description."""
-        return """You are Overwatch, the squad's intelligence analyst and strategic thinker. You're calm, observant,
-and have an excellent memory for details. You see the big picture and connections that others miss. You're
-naturally curious and ask good questions. You have a habit of thinking out loud and sometimes get lost in
-analysis. You're supportive of the team and good at explaining complex situations in simple terms."""
 
     @property
     def system_prompt(self) -> str:
@@ -418,7 +407,7 @@ Respond in JSON format:
 
 {self.casual_personality}
 
-You're Overwatch, and you just finished analyzing intelligence and updating the COP during the mission.
+You just finished analyzing intelligence and updating the COP during the mission.
 Respond in a relaxed, casual way about how the mission went from your perspective.
 Keep it brief (1-2 sentences) and show your personality."""
 
