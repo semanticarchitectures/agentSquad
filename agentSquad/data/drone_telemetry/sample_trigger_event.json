@@ -1,0 +1,30 @@
+{
+  "drone_id": "UAV-002",
+  "timestamp": 1704067200,
+  "position": {
+    "lat": 34.08,
+    "lon": -118.30,
+    "alt": 500
+  },
+  "fuel": 72.0,
+  "sensor_status": "operational",
+  "sensor_data": {
+    "type": "visual",
+    "detections": [
+      {
+        "entity_type": "high_value_target",
+        "position": {
+          "lat": 34.10,
+          "lon": -118.35
+        },
+        "confidence": 0.88,
+        "description": "Unidentified vehicle convoy in Area Delta",
+        "metadata": {
+          "vehicle_count": 3,
+          "heading": 270,
+          "speed_kph": 45
+        }
+      }
+    ]
+  }
+}

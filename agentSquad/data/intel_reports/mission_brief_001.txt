@@ -1,0 +1,24 @@
+MISSION BRIEFING - OPERATION WATCHTOWER
+Classification: CONFIDENTIAL
+Date: 2024-01-01
+Time: 12:00 UTC
+
+SITUATION:
+Intelligence indicates increased activity in Area Delta (34.10°N, 118.35°W). This area is currently NOT under active surveillance but has been identified as a potential high-value target zone based on recent SIGINT collection.
+
+COLLECTION PRIORITIES:
+1. Area Delta - HIGH PRIORITY: Establish visual surveillance coverage
+2. Area Alpha - MEDIUM: Continue current surveillance operations
+3. Area Bravo - MEDIUM: Maintain coverage of known entities
+
+TARGET AREAS:
+- Area Alpha: 34.05°N, 118.24°W (Currently surveilled by UAV-001)
+- Area Bravo: 34.08°N, 118.30°W (Currently surveilled by UAV-002)
+- Area Charlie: 34.06°N, 118.26°W (UAV-003 in transit)
+- Area Delta: 34.10°N, 118.35°W (NO COVERAGE - PRIORITY)
+
+THREAT ASSESSMENT:
+Area Delta shows indicators of logistics activity. Recommend immediate visual confirmation and persistent surveillance.
+
+COMMANDER'S INTENT:
+Establish surveillance coverage of Area Delta while maintaining current operations in Areas Alpha and Bravo.

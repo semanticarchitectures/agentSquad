@@ -1,0 +1,15 @@
+{
+    "drone_id": "UAV-003",
+    "timestamp": 1704067150,
+    "position": {
+        "lat": 34.065,
+        "lon": -118.255,
+        "alt": 400
+    },
+    "fuel": 68.5,
+    "sensor_status": "operational",
+    "sensor_data": {
+        "type": "visual",
+        "detections": []
+    }
+}

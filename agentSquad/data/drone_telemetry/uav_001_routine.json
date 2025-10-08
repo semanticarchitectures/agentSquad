@@ -1,0 +1,29 @@
+{
+    "drone_id": "UAV-001",
+    "timestamp": 1704067100,
+    "position": {
+        "lat": 34.0522,
+        "lon": -118.2437,
+        "alt": 450
+    },
+    "fuel": 75.0,
+    "sensor_status": "operational",
+    "sensor_data": {
+        "type": "visual",
+        "detections": [
+            {
+                "type": "vehicle",
+                "position": {
+                    "lat": 34.053,
+                    "lon": -118.244,
+                    "alt": 0
+                },
+                "attributes": {
+                    "size": "small",
+                    "movement": "mobile",
+                    "classification": "civilian"
+                }
+            }
+        ]
+    }
+}

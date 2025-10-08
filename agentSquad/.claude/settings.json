@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pytest *)",
+      "Bash(python -m src.cli *)",
+      "Bash(python main.py)",
+      "Bash(pip install *)",
+      "Read(data/**)",
+      "Write(data/**)",
+      "Write(*.db)",
+      "Write(logs/**)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(curl *)",
+      "Write(.env)",
+      "Write(config/production.*)"
+    ]
+  },
+  "env": {
+    "PYTHONPATH": ".",
+    "ANTHROPIC_API_KEY": "${ANTHROPIC_API_KEY}"
+  },
+  "hooks": [
+    {
+      "matcher": "Write(src/**/*.py)",
+      "hooks": [
+        {
+          "type": "postToolUse",
+          "command": "python -m black $FILE 2>/dev/null || true",
+          "continueOnError": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+    "drone_id": "UAV-002",
+    "timestamp": 1704067200,
+    "position": {
+        "lat": 34.08,
+        "lon": -118.30,
+        "alt": 500
+    },
+    "fuel": 82.5,
+    "sensor_status": "operational",
+    "sensor_data": {
+        "type": "visual",
+        "detections": [
+            {
+                "type": "vehicle",
+                "position": {
+                    "lat": 34.10,
+                    "lon": -118.35,
+                    "alt": 0
+                },
+                "attributes": {
+                    "size": "large",
+                    "movement": "stationary",
+                    "classification": "high_value_target"
+                }
+            },
+            {
+                "type": "structure",
+                "position": {
+                    "lat": 34.101,
+                    "lon": -118.351,
+                    "alt": 0
+                },
+                "attributes": {
+                    "size": "medium",
+                    "type": "facility"
+                }
+            }
+        ]
+    }
+}
